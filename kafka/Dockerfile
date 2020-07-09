@@ -1,4 +1,4 @@
-FROM confluentinc/cp-kafka:latest
+FROM confluentinc/cp-kafka:5.2.3
 
 RUN apt-get update && apt-get install -y gettext
 
