@@ -1,4 +1,4 @@
-FROM confluentinc/cp-zookeeper:5.2.3
+FROM confluentinc/cp-zookeeper:5.5.1
 
 RUN apt-get update && apt-get install -y gettext
 
