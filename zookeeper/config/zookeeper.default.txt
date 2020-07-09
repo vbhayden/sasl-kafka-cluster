@@ -1,0 +1,6 @@
+Server {
+   org.apache.kafka.common.security.plain.PlainLoginModule required
+   username="kafka-user"
+   password="kafka-pass-changeme"
+   user_admin="kafka-pass-changeme";
+};
